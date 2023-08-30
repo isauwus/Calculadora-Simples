@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap');
+
+body{
+    background-color: #ffe0ff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-family: 'Asap Condensed', sans-serif;}
+
+.form{
+    width: 40%;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+button{
+    background-color:#ff69b4;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: white;
+    height: 40px;
+    font-weight: bolder;
+    width: 100%;
+}
+button:hover{
+cursor: pointer;
+background-color: #c33b80;
+}
+
+h3{
+font-family: 'ADLaM Display', cursive;
+}
+
+.me{
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+font-weight: bolder;
+}
